@@ -1,0 +1,369 @@
+/* CSS Document */
+
+
+/* HTML, BODY PART */
+/* Styling the cover */
+
+.logo-picture {
+  width: 100%;
+  height: 450px;
+  padding: 50px;
+  background-image: url(http://medias.rtci.tn/wp-content/uploads/2014/10/cancer-du-sein-640x411.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 87px;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+}
+
+.logo-picture .title {
+  font-size: 6em;
+  font-family: 'Bree Serif', serif;
+  color: #fff;
+  position: relative;
+  top: 40%;
+ 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+}
+
+html,body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin:0;
+	background-color: #F2F2E6;
+}
+
+/* HEADER PART */
+
+header {
+	display: flex;
+	border: 2px solid #B7E8D1;
+	background-color:#B7E8D1;
+	margin-bottom: 10px;
+}
+
+
+header .picture-logo {
+	justify-content: flex-start;
+}
+
+header .title {
+	justify-content: flex-end;
+	font-size: 40px;
+	color: #ce026f;	
+}
+
+/* NAV PART */
+
+nav {
+        width: 100%;
+        background-color: #B7E8D1;
+        padding-bottom: 1.25rem;
+        padding-top: 1.25rem;
+	border-radius: 20px;
+}
+
+nav li {
+        list-style-type : none;    
+        float: left;
+}
+
+nav ul {
+        margin: 0rem;
+        padding: 0rem;
+}
+
+nav a {
+        display :inline-block;
+	text-decoration: none;
+        padding: 1.25rem 1.87rem;
+        color: #ce026f;
+        text-transform: uppercase;    
+        font-size: 1rem;
+}
+
+.menu {
+        display: table;     
+        margin: 0 auto;
+}
+
+.accueil-page:hover {     
+        border-top: 5px solid #ce026f;   
+        background-color: #D6FFE0;
+}
+
+.info-page:hover {
+        border-top: 5px solid #ce026f;
+        background-color: #D6FFE0;
+}
+
+.horaire-page:hover {
+        border-top: 5px solid #ce026f;
+        background-color: #D6FFE0;
+}
+.discipline-page:hover {
+        border-top: 5px solid #ce026f;
+        background-color: #D6FFE0;
+}
+
+.contact-page:hover {
+        border-top: 5px solid #ce026f;
+        background-color: #D6FFE0;
+}
+
+.urgence-page:hover {
+        border-top: 5px solid #ce026f;
+        background-color: #D6FFE0;
+}
+
+/* ASIDE PART */
+
+aside {
+	float: right;
+	color: #ce026f;
+	background-color: #B7E8D1;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+
+.phone-logo {
+	width: 6.4rem;
+	height: 6.4rem;
+
+}
+
+.info-importante {
+	border: 1px solid #ce026f;
+        background-color:#ce026f;
+        color: white;
+        box-shadow: 1px 1px 1px 1px #ce026f;
+	text-decoration: none;
+	text-align: center;
+}
+
+.mail-logo {
+        width: 6.4rem;
+        height: 6.4rem;
+
+}
+
+
+/* SECTION PART */
+
+.presentation {
+	display: flex;
+	color: #ce026f;
+	align-content: center;
+	background-color: #B7E8D1;
+	border-radius: 20px;
+	margin-top: 10px;
+	width: 80%;
+}
+
+.title-CREM {
+        text-align: center;
+        border: 2px solid #ce026f;
+	background-color: #ce026f;
+	color: white;
+        box-shadow: 2px 2px 2px 2px #ce026f;
+}
+
+.text {
+	font-size: 1.1rem;
+}
+
+.CREM-picture {
+	width: 25rem;
+	height: 15rem;
+}
+
+.CREM-picture:hover {
+	box-shadow: 5px 5px 5px 5px #ce026f
+}
+
+
+table {
+	display: flex;
+	justify-content: center;
+        color: #ce026f;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+        width: 100%;
+	font-size: 30px;
+
+}
+
+tbody{
+	border : 5px solid #ce026f;
+	width: 50%;
+}
+
+td,tr {
+	border : 1px inset #ce026f;
+}
+
+.info-medecin {
+        display: flex;
+        color: #ce026f;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+}
+
+.doctor {
+	width: 15rem;
+        height: 15rem;
+}
+
+.doctor:hover {
+        box-shadow: 5px 5px 5px 5px #ce026f;
+}
+
+.name-doctor {
+
+        border: 2px solid #ce026f;
+        background-color: #ce026f;
+        color: white;
+        box-shadow: 2px 2px 2px 2px #ce026f;
+}
+.info-doctor {
+	font-size: 30px;
+}
+
+.spe {
+	align-self: center;
+	font-size: 20px;
+}
+
+section iframe, form {
+	color:#ce026f;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+}
+
+iframe {
+	width: 100%;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 20rem;
+}
+
+/* ARTICLE PART */
+
+.docteur-link {
+	background-color: #B7E8D1;
+	border-radius: 20px;
+	text-decoration: none;
+	color: #ce026f;
+}
+
+.steto {
+	width: 25rem;
+	height: 15rem;
+}
+
+.steto:hover {
+	box-shadow: 5px 5px 5px 5px #ce026f;
+}
+
+article {
+	display: flex;
+	color: #0b9c88;
+        align-content: center;
+        background-color: #B7E8D1;
+        border-radius: 20px;
+        margin-top: 10px;
+        width: 80%;
+
+}
+
+.honoraires {
+	justify-content: center;
+	width: 100%;
+	font-size: 30px;
+}
+
+.honoraires p {
+	font-size: 30px;
+}
+
+.conges p {
+	font-size: 30px;
+}
+
+.conges {
+	justify-content: center;
+	width: 100%;
+	font-size: 30px;
+}
+
+.urgency {
+	width: 25rem;
+	height: 15rem;
+}
+
+.urgency-list {
+	align-self: center;
+	font-size: 20px;
+}
+
+.urgency-text {
+	width: 100%;
+}
+
+/* FOOTER PART */
+
+footer {
+	background-color: #D6FFE0;
+	color: #ce026f;
+	border: 2px solid #b9e8b7;
+	margin-top: 10px;	
+}
+/* MEDIAS QUERIES PART */
+
+@media only screen and (device-width < 750px){
+  aside {
+          display: none;
+  }
+  .docteur-link{
+          width: 100%;
+  }
+  section .presentation {
+          width: 100%;
+  }
+  .steto {
+          display: none;
+  }
+  iframe {
+          display: none;
+  }
+  .urgency {
+          display: none;
+  }
+  .CREM-picture {
+          display: none;
+  }
+  .logo-picture {
+          width: 80px;
+          height: 80px;
+  }
+  table,tbody,td,tr {
+          font-size: small;
+  }
+.info-doctor,.spe {
+          display: none;
+  }
+  .doctor {
+          width: 20px;
+          height: 20px;
+  }
+}
